@@ -1,6 +1,6 @@
-name: "My Custom Action"
-description: "A custom action for testing"
+name: "My Action"
+description: "A custom action"
 
 runs:
   using: "node12"
-  main: "dist/main.js"  
+  main: "dist/index.js"  
