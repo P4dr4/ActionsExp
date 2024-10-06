@@ -25,4 +25,4 @@ jobs:
         run: npm run build  
 
       - name: Run reusable action
-        uses: ./  
+        uses: P4dr4/ActionsExp@init-branch 
