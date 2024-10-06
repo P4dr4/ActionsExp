@@ -1,0 +1,10 @@
+name: "Actions Test"
+description: "A GitHub Action"
+
+runs:
+  using: "node20"
+  main: "dist/main.js"
+
+branding:
+  icon: "cpu"
+  color: "red"
