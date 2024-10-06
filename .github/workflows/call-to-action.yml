@@ -1,0 +1,23 @@
+name: Using chat gpt2
+
+on:
+  push:
+    branches:
+      - init-branch
+
+jobs:
+  call_to_chat:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Run reusable action
+      id: run1
+      uses: P4dr4/ActionsExp@init-branch
