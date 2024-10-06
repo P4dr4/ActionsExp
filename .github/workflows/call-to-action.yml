@@ -6,7 +6,7 @@ on:
       - init-branch
 
 jobs:
-  call_to_chat:
+  TEST:
     runs-on: ubuntu-latest
 
     steps:
