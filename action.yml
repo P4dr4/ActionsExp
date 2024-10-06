@@ -1,10 +1,6 @@
-name: "Actions Test"
-description: "A GitHub Action"
+name: "My Custom Action"
+description: "A custom action for testing"
 
 runs:
-  using: "node20"
-  main: "dist/main.js"
-
-branding:
-  icon: "cpu"
-  color: "red"
+  using: "node12"
+  main: "dist/main.js"  

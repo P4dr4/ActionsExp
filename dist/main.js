@@ -13,8 +13,9 @@ exports.getOwner = getOwner;
 const github_1 = require("@actions/github");
 function getOwner() {
     return __awaiter(this, void 0, void 0, function* () {
-        const owner = github_1.context.repo.owner;
+        const owner = github_1.context.repo.owner; // Access the owner from the repo context
         console.log(owner);
         return owner;
     });
 }
+getOwner();
